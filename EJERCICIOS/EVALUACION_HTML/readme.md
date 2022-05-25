@@ -7,15 +7,36 @@ Preguntas:
 
 1. ¿Qué es el hipertexto? (valor 1.0)
 
+conjunto de textos unidos entre si por enlaces y conexiones logicas
+
 2. ¿Qué es la hipermedia? (valor 1.0)
+
+que utiliza conjunta y simultáneamente diversos medios como imágenes, sonidos y texto, en la transmisión de una información
 
 3. ¿Qué características tiene un lenguaje de etiquetas? (valor 1.0)
 
+permiten estructurar un documento con etiquetas y no usan variables
+
 4. ¿Cuáles son las ventajas que introduce HTML5? (valor 1.0)
+
+- semantica
+- funciones de formulario
+- multimedia
+- caracteristicas para poder integrarse con nuevas tecnologias
 
 5. ¿Cuál es la función del motor de renderizado de un navegador web? (valor 1.0)
 
+obtener los datos de un servidor conectado a internet para traducirlos en texto e imagenes
+
 6. Menciona al menos 2 tecnologías de software para el desarrollo de páginas web y explícalas brevemente (valor 1.0)
+
+- bloc de notas 
+
+editor de texto simple que permite cortar,copiar y pegar, dar formato a un texo y buscar y reemplazar
+
+- visual studio code
+
+ te ayuda a escribir software, tiene características útiles como: resaltar la sintaxis, encontrar algunos problemas dependiendo del lenguaje o autocompletando para que tu experiencia sea mejor y las integraciones sencillas con diferentes tecnologías de Azure
 
 ## 2. HERRAMIENTAS PARA LA CREACIÓN DE PÁGINAS WEB
 
@@ -26,13 +47,31 @@ Preguntas:
 
 1. Describe al menos 5 características básicas de un editor de texto. (valor 1.0)
 
+- dar formato a un texto 
+- cortar, copiar y pegar
+- dar formato a un texto
+- buscar y reemplazar
+- hacer y deshacer
+
 2. Menciona al menos 3 editores de texto. Pueden ser tanto comerciales como los preinstalados en algún sistema operativo. (valor 1.0)
+
+- word
+- bloc de notas
+- react
 
 3. ¿Qué extensión debe tener un archivo que contiene el código HTML de una página web? (valor 1.0)
 
+.html
+
 4. ¿Qué extensión llevan los archivos que contienen instrucciones para aplicar estilos a un documento que contiene el código HTML de una página web? (valor 1.0)
 
+.css
+
 5. ¿Menciona al menos tres formatos de imagen que puedes incorporar dentro del código html5? (valor 1.0)
+
+- png 
+- jpg
+- gif
 
 6. Uno de los buenos hábitos para desarrollar nuestra página web es tener en
 distintas carpetas distintos tipos de archivo, por ejemplo, los archivos relacionados
@@ -40,7 +79,7 @@ a imágenes en una carpeta, en otra los relacionados a multimedia, en otra a lo
 referente a los estilos (CSS), etc. (valor 1.0)
 
         a) Cierto
-        b) Falso
+       
 
 ## 3. ESTRUCTURA BÁSICA DE UN DOCUMENTO HTML
 
@@ -50,49 +89,51 @@ Preguntas:
 
 1. ¿Menciona brevemente qué es una etiqueta y qué es un elemento? (valor 0.6)
 
+etiqueta: palabras clave que el navegador entiende y estan netre signos
+elemento: posibilitan determinar cómo estará armada la página y sus secciones
+
 2. ¿Qué significa la semántica en el contexto de HTML5? (valor 0.3)
-a) Las etiquetas HTML semánticas dan un significado extra al contenido de la
-etiqueta
+
 
         a) Las etiquetas HTML semánticas dan un significado extra al contenido de la etiqueta
-        b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
-        contenido de la página
-        c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
-        información sobre el contenido de la etiqueta.
-        d) Es solo una palabra de moda sin sentido.
+
   
 3. ¿Qué elemento se utiliza para diferenciar el contenido de una página web del
 material en el que se encuentra (como una barra lateral)? (valor 0.3)
   
-        a) header
-        b) footer
-        c) nav
         d) aside
   
 4. De los siguientes elementos, seleccione el que NO clasifica como marcado semántico. (valor 0.3)
   
-        a) mark
-        b) article
-        c) time
+
         d) span
   
 5. ¿Menciona al menos 6 elementos semánticos en html5 y descríbelos brevemente? (valor 1.5)
+
+header
+nav
+article
+footer
+mark 
+figure
   
 Los siguientes ejemplos de elementos son incorrectos. Describe lo que está mal con cada
 uno, y luego escríbelo correctamente. (cada respuesta vale 0.3, en total suman 1.2)
   
            
-        1. <img "birthday.jpg">
-        2. <i>Congratulations!<i>
-        3. <a href="file.html">Enlace de texto</a href="file.html">
-        4. <p>Esto es un párrafo<\p>
+        1. <img "birthday.jpg">           <img src="birthday.jpg" alt="birthday">
+        2. <i>Congratulations!<i>         <i>Congratulations</i>
+        3. <a href="file.html">Enlace de texto</a href="file.html">      <a href="file.html">Enlace de texto</a>
+        4. <p>Esto es un párrafo<\p>      <p>Esto es un párrafo</p>
 
  Indicaciones: La siguiente imagen muestra el contenido de la página web del periodico
 The New York Times. Coloca los elementos semánticos de HTML5 dentro de cada uno de
 los recuadros según corresponda: (valor 0.3 cada una, total 1.8)
     
  ![image](https://user-images.githubusercontent.com/91554777/164572088-a10117ae-7343-4ad9-9d51-48ae5beb5dbb.png)
-    
+  
+  ![164572088-a10117ae-7343-4ad9-9d51-48ae5beb5dbb](https://user-images.githubusercontent.com/105729934/170347402-974073a9-e5ee-4a40-a153-28939afbbbe4.png)
+
 ## 4. LENGUAJE HTML
 
 Objetivo: Verificar el dominio de los elementos básicos en html para la realización de la
