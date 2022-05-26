@@ -268,4 +268,5 @@ extensión .html
 actividad pero sí todo el código HTML5 que da estructura a cada una de las
 secciones que se muestran en la imagen de arriba.
 
-![html](https://user-images.githubusercontent.com/105729934/170544598-b443f54b-31bc-4112-94fc-6b64e2473104.png)
+![html](https://user-images.githubusercontent.com/105729934/170545120-55296fc5-0c4a-4c07-8ba9-9201a1ea0810.png)
+
