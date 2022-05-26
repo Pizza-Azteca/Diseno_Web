@@ -270,3 +270,46 @@ secciones que se muestran en la imagen de arriba.
 
 ![html](https://user-images.githubusercontent.com/105729934/170545120-55296fc5-0c4a-4c07-8ba9-9201a1ea0810.png)
 
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Evaluacion html</title>
+    </head>
+    <body>
+        <header>
+            <h1>Encabezado nivel 1</h1>
+            <nav>
+                <ul>
+                    <li><a href="">enlace 1</a></li>
+                    <li><a href="">enlace 2</a></li>
+                    <li><a href="">enlace 3</a></li>
+                    <li><a href="">enlace 4</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Encabezado nivel 2</h2>
+                <p>Aqui va texto del primer <b>parrafo</b></p>
+                <p>Aqui va texto del degundo parrafo</p>
+                <aside>
+                    <h2>Apartado</h2>
+                    <p>Elije una opcion</p>
+                    <input type="radio" id="1" name="opc">
+                    <label for="1">Opcion 1</label><br>
+                    <input type="radio" id="2" name="opc">
+                    <label for="2">Opcion 2</label><br>
+                    <input type="radio" id="3" name="opc">
+                    <label for="3">Opcion 3</label><br><br>
+                    <input type="submit" name="enviar" id="env">
+                </aside>
+            </section>
+        </main>
+        <footer>
+            <p>Seccion de informacion de contacto, derechos de autor, etc</p>
+        </footer>
+    </body>
+    </html>
