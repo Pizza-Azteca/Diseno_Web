@@ -181,7 +181,6 @@ Preguntas:
   
 10. Los elementos inline normalmente se muestran sin comenzar una nueva línea.(valor 0.24)
   
-          a) Verdadero
           b) Falso
     
   
@@ -203,14 +202,10 @@ Preguntas:
   
 15. ¿Cuál es el HTML correcto para hacer una lista desplegable? (valor 0.24)
   
-          a) list
-          b) input type="list"
-          c) input type="dropdown"
           d) select
   
 16. ¿Cuál es el HTML correcto para hacer un área de texto? (valor 0.24)
   
-          a) input type="textbox"
           b) input type="textarea"
           c) textarea
   
