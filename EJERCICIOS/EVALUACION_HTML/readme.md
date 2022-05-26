@@ -267,3 +267,5 @@ extensión .html
 ● No es necesario que incluyas los estilos (CSS) para cada elemento en esta
 actividad pero sí todo el código HTML5 que da estructura a cada una de las
 secciones que se muestran en la imagen de arriba.
+
+![html](https://user-images.githubusercontent.com/105729934/170544598-b443f54b-31bc-4112-94fc-6b64e2473104.png)
