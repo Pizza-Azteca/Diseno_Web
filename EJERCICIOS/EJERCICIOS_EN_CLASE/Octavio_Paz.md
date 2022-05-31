@@ -34,3 +34,52 @@ Agrega aqui el código de la página de Octavio Paz en HTML Y CSS
             si corro, corre. Vuelvo el rostro: nadie.</p>
 </body>
 </html>
+
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Evaluacion html</title>
+                <link rel="stylesheet" href="css/estilos.css">
+                <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+            </head>
+            <body>
+                <header>
+                    <h1>Encabezado nivel 1</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="">Enlace 1</a></li>
+                            <li><a href="">Enlace 2</a></li>
+                            <li><a href="">Enlace 3</a></li>
+                            <li><a href="">Enlace 4</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <main>
+                    <section>
+                        <h2>Encabezado nivel 2</h2>
+                        <p class="rojo">Aqui va texto del primer <b>parrafo</b></p>
+                        <p class="rojo">Aqui va texto del degundo parrafo</p>
+                        <aside>
+                            <h2>Apartado</h2>
+                            <p>Elije una opcion</p>
+                            <input type="radio" id="1" name="opc">
+                            <label for="1">Opcion 1</label><br>
+                            <input type="radio" id="2" name="opc">
+                            <label for="2">Opcion 2</label><br>
+                            <input type="radio" id="3" name="opc">
+                            <label for="3">Opcion 3</label><br><br>
+                            <input type="submit" name="enviar" id="env">
+                        </aside>
+                    </section>
+                </main>
+                <footer>
+                    <p class="rojo">Seccion de informacion de contacto, derechos de autor, etc</p>
+                </footer>
+            </body>
+            </html>
