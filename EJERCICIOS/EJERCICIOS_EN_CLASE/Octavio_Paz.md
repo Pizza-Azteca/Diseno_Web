@@ -83,3 +83,60 @@ Agrega aqui el código de la página de Octavio Paz en HTML Y CSS
                 </footer>
             </body>
             </html>
+
+
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                background: #25171A;
+            }
+            h1{
+                color: #AEDCC0;
+                text-align: center;
+                font-size: 90px;
+                padding: 30px;
+                margin-top: 20px;
+                margin-left: 50px;
+                margin-right: 50px;
+                margin-bottom: 20px;
+                border: outset 3px orange;
+            }
+            nav{
+                background: #AEDCC0;
+            }
+            nav a{
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+            body{
+                background: #518F93;
+                font-family: 'Indie Flower', cursive;
+            }
+            section{
+                background: #3091B5;
+                text-align: center;
+            }
+            section h2{
+                text-transform: uppercase;
+            }
+            h2{
+                font-size: 3em;
+            }
+            aside{
+                background: #EC2A68;
+                text-align: center;
+            }
+            footer{
+                background: #EAD94C;
+                text-align: center;
+            }
+            aside p{
+                word-spacing: 10px;
+                letter-spacing: 20px;
+            }
+            .rojo{
+                color: red;
+                background-color: rgb(85, 77, 77);
+            }
